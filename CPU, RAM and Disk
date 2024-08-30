@@ -1,0 +1,4 @@
+1/ CPU:
+- Core: The physical component of a CPU. Each core includes a Control Unit (the captain), arithmetic logic unit (ALU) and register (just like RAM). 
+- Thread: Instruction that can be executed per core ( normally 1 core 2 thread)
+- hz: Speed of cpu. 2.9 Ghz = 2.9 billion work per second => the more the clock, the better
