@@ -3,3 +3,20 @@
 - Thread: Instruction (which is code) that can be executed per core ( normally 1 core 2 thread). Programer and dev care about this
 - hz: Speed of cpu. 2.9 Ghz = 2.9 billion work per second => the more the clock, the better
 - CPU bus: there is two types: data bus and address bus. Bus is used to transmit data between CPU and RAM (thats why it is called bus). CPU input address to address bus and RAM return data via data bus. 
+- When buying CPU, check Memory Types. These are all supported memories. e.g. DDR3 1333/1600.
+2/ RAM: 
+- Check RAM Bus: This is how much data RAM can transfer per second: bus 1333, bus 1600. RAM bus should match CPU supported memories.
+- Also check DDR3 and DDR4. DDR3 RAM cannot plug into DDR4 slot and vice verce. 
+- Maximum bandwith = bus x2 (for DDR = double data rate) x 8. VD: bus 1600 -> 1600 x2 x8 =25600=25,6GB/s
+- DRAM (dynamic ram): ram used for server and pc. DRAM needs to recharge regularly. so it is called dynamic
+- SRAM (static ram): used mainly for cpu cached. Usually built-in to mother board. It is bigger and more expensive than DRAM but consume less energy and faster (thats why it is used for cpu)
+3/ Disk:
+- SSD stores data in memory cells, no moving part. Each memory cell trap 1-16 electron (each equal to 1 bit, so each cell trap can store up to 16 bit). 
+- HDD stores data in magnetic disk which spin very fast. Life cycle of HDD usually shorter because it has moving parts and can be subjected to mechanical issues. 
+- SATA is just a physical interface for both SSD and HDD. In modern day, both SSD and HDD use SATA. SATA use AHCI, which is written specifically for HDD. so it is slower than NVMe
+- SSD NVMe: this is also physical interface of SSD. This is much faster than SATA bebecause it use PCIe driver, which is a software written specifically for SSD
+- SSD M2: This is form factor of SSD. 
+
+***Notice that:
+- SSD is faster than HDD because HDD need the disk to spin, which cannot spin faster than 7200 rpm (for normal devices). Also, if the disk is fragemented (data is scattered on the disk), then HDD is even more slower. So, HDD usually need to be defragmented (move scatter data of the same thing to the same area)
+- Also RAM and SSD is very similar from their apperance (especially NVMe SSD), however, RAM is thousands time faster because RAM store data in energy form (electric) while SSD stores data in matter form. Thats why data in ram move so fast but cannot remain after unplug, while data in SSD can remain for decades. Energy is faster than matter becasue energy has no weight
