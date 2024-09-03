@@ -15,7 +15,7 @@
 - HDD stores data in magnetic disk which spin very fast. Life cycle of HDD usually shorter because it has moving parts and can be subjected to mechanical issues. 
 - SATA is just a physical interface for both SSD and HDD. In modern day, both SSD and HDD use SATA. SATA use AHCI, which is written specifically for HDD. so it is slower than NVMe
 - SSD NVMe: this is also physical interface of SSD. This is much faster than SATA bebecause it use PCIe driver, which is a software written specifically for SSD
-- SSD M2: This is form factor of SSD. 
+- SSD M2: This is form factor of SSD. Note that M2 have several sizes and forms
 
 ***Notice that:
 - SSD is faster than HDD because HDD need the disk to spin, which cannot spin faster than 7200 rpm (for normal devices). Also, if the disk is fragemented (data is scattered on the disk), then HDD is even more slower. So, HDD usually need to be defragmented (move scatter data of the same thing to the same area)
